@@ -1,0 +1,10 @@
+{
+  "measurementError": "Error Medicion",
+  "correct": "Correcta",
+  "moderate": "Moderada",
+  "incipient": "Incipiente",
+  "severe": "Severa",
+  "healthy": "El niño esta saludable. No es necesaria ninguna accion",
+  "increaseFoodAmount": "La malnutricion es incipiente pero no severa. Aumente la racion de comida del niño.",
+  "bringToDoctor": "Lleve el niño al doctor. La malnutricion es severa."
+}
