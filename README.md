@@ -88,7 +88,7 @@ nutritionCalculator.calculateWFH(gender, weight, height)
 
 
 ## Formulas
-- Formulas (Que es M que es L que es S)
+
 ![Formula](images/malnutritionFormula.png)
 
 
