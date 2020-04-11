@@ -26,8 +26,8 @@ nutritionCalculator.calculateNutrition(months, gender, weight, height)
 Where:
 - months: A int from 24 to 60. (From 2 years old until 5 years old)
 - gender: Either "M" (Male) or "F" (Female)
-- weight: The weight of the infant. A float variable that can take any number of decimals.
-- height: The height of th infant. Accepts int values as well as float in increments of 0.5 (Eg: 17 or 15.5 but not 12.3  because .3 is not accepted)
+- weight: The weight of the infant. A number variable that can take any number of decimals.
+- height: The height of th infant. A number variable that can take any number of decimals.
 
 
 ## Example response

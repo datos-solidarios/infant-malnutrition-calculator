@@ -52,7 +52,9 @@ class nutritionCalculator {
 
   calculateWFH(gender, weight, height) {
     let valuesWFH = tableWFH.filter(values => {
-      return values.ID === (gender + height)
+      //Round height to nearest .5 point, to check on table.
+      let roundedHeight = Math.round(height*2)/2;
+      return values.ID === (gender + roundedHeight)
     })[0]
     valuesWFH.zWFH = ((Math.pow((weight/parseFloat(valuesWFH.M)), parseFloat(valuesWFH.L)) - 1)/(parseFloat(valuesWFH.S)*parseFloat(valuesWFH.L)))
     valuesWFH.risk = this.calculateRisk(valuesWFH.zWFH)
