@@ -1,6 +1,6 @@
 {
   "name": "infant-nutrition-calculator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Calculator of infants nutrition based on WHO standards.",
   "main": "nutrition-calculator.js",
   "dependencies": {
