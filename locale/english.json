@@ -1,11 +1,13 @@
 {
   "measurementError": "measurement Error",
-  "correct": "Correct",
+  "excellent":"excellent"
+  "good": "Good",
+  "limit":"limit",
   "moderate": "Moderate",
-  "incipient": "Incipiente",
+  "verySevere": "Very Severe",
   "severe": "Severe",
   "healthy": "Infant is healthy. No further action needed.",
   "increaseFoodAmount": "Malnutrition is incipient, but not severe. Increase the daily food amount of the infant",
-  "bringToDoctor": "Bring the infant to the doctor for treatment"
-
+  "bringToDoctor": "Bring the infant to the doctor for treatment",
+  "nonApplicable": "Non Applicabe"
 }
