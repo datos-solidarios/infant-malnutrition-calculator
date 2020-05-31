@@ -52,7 +52,7 @@ class nutritionCalculator {
     })[0]
     valuesHFA.zHFA = ((Math.pow((height/parseFloat(valuesHFA.M)), parseFloat(valuesHFA.L)) - 1)/(parseFloat(valuesHFA.S)*parseFloat(valuesHFA.L)))
     let errorRangeHFA = [6, -6]
-    valuesHFA.risk = this.calculateRisk(valuesHFA.zHFA, erroRangeHFA)
+    valuesHFA.risk = this.calculateRisk(valuesHFA.zHFA, errorRangeHFA)
     return valuesHFA
   }
 
